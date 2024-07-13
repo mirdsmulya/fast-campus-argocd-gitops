@@ -5,10 +5,10 @@
 replicaCount: 2
 
 image:
-  repository: mirdsmulya/hello-world
+  repository: 675327529402.dkr.ecr.ap-southeast-1.amazonaws.com/fast-campus
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v0.0.1"
+  tag: "v0.0.12"
 
 imagePullSecrets: []
 nameOverride: "hello-world"
