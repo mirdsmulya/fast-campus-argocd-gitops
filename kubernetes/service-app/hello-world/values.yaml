@@ -1,6 +1,6 @@
 replicaCount: 2
 image:
-  repository: mirdsmulya/hello-world
+  repository: 675327529402.dkr.ecr.ap-southeast-1.amazonaws.com/fast-campus
   pullPolicy: IfNotPresent
   tag: v0.0.12
 imagePullSecrets: []
